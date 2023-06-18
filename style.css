@@ -15,6 +15,7 @@ body {
 }
 
 header {
+    width: 40%;
     display: grid;
     grid-template-rows: 1fr;
     grid-template-columns: 1fr;
@@ -23,7 +24,7 @@ header {
 
 img {
     width: 100%;
-    height: auto;
+    height: 100vh;
     grid-area: overlap;
 }
 
@@ -44,3 +45,22 @@ h1 {
     font-size: 28px;
 }
 
+#form-body {
+    width: 60%;
+}
+
+input:focus {
+    border-color: black;
+}
+
+a {
+    color: blanchedalmond;
+}
+
+p, label {
+    padding: 10px;
+}
+
+input {
+    margin: 10px;
+}
