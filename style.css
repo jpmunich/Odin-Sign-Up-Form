@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1rem;
 }
 
 body {
@@ -43,7 +44,7 @@ img {
 }
 
 h1 {
-    font-size: 28px;
+    font-size: 1.75rem;
 }
 
 #form-body {
@@ -51,20 +52,16 @@ h1 {
 }
 
 #main-text {
-    padding: 60px 40px 30px 0;
+    padding: 3em 2.5em 2em 0;
     background-color: #424242;
 }
 
 #get-started-text {
-    padding: 20px 0 10px 0;
+    padding: 1.2em 0 0.5em 0;
 }
 
 #you-want-to-text {
-    padding: 0 0 50px 0;
-}
-
-#form-body > * {
-    padding-left: 40px;
+    padding: 0 0 4em 0;
 }
 
 input:focus {
@@ -86,10 +83,11 @@ button {
     font-size: 18px;
     font-weight: 700;
     margin: 10px;
-    padding: 15px 65px 15px 65px;
+    padding: 1em 4em;
     background-color: transparent;
     border: 4px solid #a094ff;
     border-radius: 5%;
+    margin-bottom: 1.5em;
 }
 
 button:hover {
@@ -104,8 +102,54 @@ input {
     margin: 10px;
 }
 
+form {
+    background-color: rgb(56, 56, 56);
+}
+
 .form {
     display: grid;
-    grid-template-columns: 200px 200px;
-    grid-template-rows: 75px 75px 75px;
+    padding: 1.5em 0 0 0;
+    grid-template-columns: 225px 225px;
+    grid-template-rows: 90px 90px 90px;
+}
+
+#account-text {
+    padding-top: 1em;
+}
+
+#form-body > * {
+    padding-left: 3em;
+}
+
+@media  (max-width: 920px) {
+    h1 {
+        font-size: 1.4rem;
+    }
+
+    .form {
+        grid-template-columns: 175px 175px;
+        grid-template-rows: 90px 90px 90px;
+    }
+}
+
+@media (max-width: 700px) {
+    #everything {
+        display: block;
+    }
+
+    img {
+        object-fit: cover;
+        height: 30vh;
+        width: 100vw;
+    }
+
+    #form-body {
+        width: 100vw;
+    }
+
+    .form {
+        grid-template-columns: 90vw;
+        grid-template-rows: repeat(6, 90px);
+    }
+
 }
