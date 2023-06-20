@@ -36,7 +36,7 @@ img {
     align-items: center;
     position: relative;
     transform: translateY(-50%);
-    top: 50%;
+    top: 40%;
     width: 100%;
     height: 100px;
     background-color: rgba(0, 0, 0, 0.6);
@@ -132,7 +132,7 @@ form {
     }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 724px) {
     #everything {
         display: block;
     }
@@ -140,6 +140,7 @@ form {
     #heading {
         background-color: rgba(0, 0, 0, 0.7);
         height: 100%;
+        top: 50%;
     }
 
     h1 {
