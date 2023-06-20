@@ -52,7 +52,7 @@ h1 {
 }
 
 #main-text {
-    padding: 3em 2.5em 2em 0;
+    padding: 2em 2.5em 2em 0;
     background-color: #424242;
 }
 
@@ -79,20 +79,20 @@ p, label {
 }
 
 button {
-    color: #a094ff;
+    color: #5991ff;
     font-size: 18px;
     font-weight: 700;
     margin: 10px;
     padding: 1em 4em;
     background-color: transparent;
-    border: 4px solid #a094ff;
+    border: 4px solid #5991ff;
     border-radius: 5%;
     margin-bottom: 1.5em;
 }
 
 button:hover {
     color:rgb(41, 41, 41);
-    background-color: #a094ff;
+    background-color: #5991ff;
 }
 
 input {
