@@ -30,6 +30,12 @@ img {
     grid-area: overlap;
 }
 
+#svg {
+    height: 75%;
+    width: auto;
+    color: white;
+}
+
 #heading {
     display: flex;
     justify-content: center;
@@ -44,7 +50,7 @@ img {
 }
 
 h1 {
-    font-size: 1.75rem;
+    font-size: 1.70rem;
 }
 
 #form-body {
@@ -121,9 +127,9 @@ form {
     padding-left: 3em;
 }
 
-@media  (max-width: 920px) {
+@media  (max-width: 1020px) {
     h1 {
-        font-size: 1.4rem;
+        font-size: 1.05rem;
     }
 
     .form {
