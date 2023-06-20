@@ -133,8 +133,12 @@ form {
     }
 
     .form {
-        grid-template-columns: 175px 175px;
+        grid-template-columns: 190px 190px;
         grid-template-rows: 90px 90px 90px;
+    }
+
+    #form-body > * {
+        padding-left: 1.5em;
     }
 }
 
@@ -166,6 +170,10 @@ form {
     .form {
         grid-template-columns: 90vw;
         grid-template-rows: repeat(6, 90px);
+    }
+
+    #form-body > * {
+        padding-left: 3em;
     }
 
 }
