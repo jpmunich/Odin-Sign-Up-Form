@@ -5,13 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="shortcut icon" href="./images/favicon.ico" />
+    <link rel="shortcut icon" href="images/favicon.ico" />
     <link rel="stylesheet" href="style.css" />
 </head>
 <body>
     <div id="everything">
         <header>
-            <img src="./images/hector-emilio-gonzalez-SiJ2RufQTbo-unsplash.jpg" />
+            <img src="images/hector-emilio-gonzalez-SiJ2RufQTbo-unsplash.jpg" />
             <div id="heading">
                 <img id="svg" src="images/award-2.svg">
                 <h1>Formulario de Registro</h1>
@@ -22,7 +22,7 @@
                 <h3 id="get-started-text">Sign up now to get started!</h3>
                 <p id="you-want-to-text">¡Inscríbete ahora para empezar!</p>
                 <p><strong>Let's do this!</strong></p>
-            <form>
+            <form id="form">
                 <div class="form">
                     <div>
                         <label for="fname">First name:</label><br>
@@ -38,7 +38,7 @@
                     </div>
                     <div>
                         <label for="phone-number">Phone Number:</label><br>
-                        <input type="text" id="phone-number" placeholder="10 digits no spaces:" name="phone-number" pattern="[0-9]{10}" required><br>
+                        <input type="text" id="phone-number" placeholder="10 digits no spaces:" name="phone-number" id="phone-number" required><br>
                     </div>
                     <div>
                         <label for="pword">Password:</label><br>
@@ -49,10 +49,11 @@
                         <input max-length="26" type="text" id="pword2" name="pword2" required><br>
                     </div>
                 </div>
-                <button type="submit">Button</button>
+                <button id="submit" type="submit">Button</button>
               </form>
               <p id="account-text">Already have an account? <a href="#">Log in</a></p>
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
