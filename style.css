@@ -107,16 +107,11 @@ input {
     padding: 0.25em;
     margin: 10px;
     border-radius: 0.5em;
+    border: 0.2em solid ;
 }
 
 input:focus {
     box-shadow: 1px 2px #5991ff;
-}
-
-
-
-input:valid {
-    border-color: green;
 }
 
 form {
