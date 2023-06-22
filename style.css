@@ -104,8 +104,19 @@ button:hover {
 input {
     font-size: 14px;
     width: 90%;
-    padding: 2px;
+    padding: 0.25em;
     margin: 10px;
+    border-radius: 0.5em;
+}
+
+input:focus {
+    box-shadow: 1px 2px #5991ff;
+}
+
+
+
+input:valid {
+    border-color: green;
 }
 
 form {
@@ -133,12 +144,12 @@ form {
     }
 
     .form {
-        grid-template-columns: 190px 190px;
+        grid-template-columns: 200px 200px;
         grid-template-rows: 90px 90px 90px;
     }
 
     #form-body > * {
-        padding-left: 1.5em;
+        padding-left: 1.8em;
     }
 }
 
