@@ -6,9 +6,14 @@
     font-size: 1rem;
 }
 
+:root {
+    --body-background: rgb(41, 41, 41);
+    --accent-blue: #5991ff; 
+}
+
 body {
     color: rgb(226, 226, 226);
-    background-color: rgb(41, 41, 41);
+    background-color: var(--body-background);
 }
 
 #everything {
@@ -85,20 +90,20 @@ p, label {
 }
 
 button {
-    color: #5991ff;
+    color: var(--accent-blue);
     font-size: 18px;
     font-weight: 700;
     margin: 10px;
     padding: 1em 4em;
     background-color: transparent;
-    border: 4px solid #5991ff;
+    border: 4px solid var(--accent-blue);
     border-radius: 5%;
     margin-bottom: 1.5em;
 }
 
 button:hover {
-    color:rgb(41, 41, 41);
-    background-color: #5991ff;
+    color: var(--body-background);
+    background-color: var(--accent-blue);
 }
 
 input {
@@ -111,7 +116,7 @@ input {
 }
 
 input:focus {
-    box-shadow: 1px 2px #5991ff;
+    box-shadow: 1px 2px var(--accent-blue);
 }
 
 form {
